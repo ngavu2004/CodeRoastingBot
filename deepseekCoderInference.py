@@ -82,7 +82,7 @@ class Model:
         print("📣 Generating text...")
 
         generation_args = {
-            "max_new_tokens": 64000,
+            "max_new_tokens": 10000,
             "temperature": 0.6,
             "top_p": 0.95,
         }
